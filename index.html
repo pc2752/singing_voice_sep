@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>contact information page</title>
+        <link rel="stylesheet" type="text/css" href="../../css/blog-web.css" media="all">
+    </head>
+    <body>
+    <div id="blog-wrapper">
+      <div id="blog-content">
+          <h2>Audio Examples of paper: A Vocoder Based Method For Singing Voice Extractione</h2>
+          <h3>Pritish Chandna, Merlijn Blaauw, Jordi Bonada, Emilia Gómez</h3>
+          <h3>Music Technology Group, Universitat Pompeu Fabra, Barcelona</h3>
+
+          <h4>Examples From iKala Validation Set (In Mandarin Chinese)</h4>
+
+          <p><strong>21084_verse:</strong> The original mixture file</p>
+            <audio controls>
+            <source src="21084_verse_2_mix.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <p><strong>21084_verse:</strong> The original vocals file</p>
+            <audio controls>
+            <source src="21084_verse_2_ori.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <p><strong>21084_verse:</strong> Vocals extracted using sssynth file</p>
+            <audio controls>
+            <source src="21084_verse_2_orif0.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <p><strong>21084_verse:</strong> Vocals extracted using <a href="https://github.com/MTG/DeepConvSep">DeepConvSep</a> [1].</p>
+            <audio controls>
+            <source src="21084_verse_2_DCS.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+
+          <p><strong>21084_verse:</strong> Vocals extracted using <a href="http://bass-db.gforge.inria.fr/fasst/">FASST</a> [2].</p>
+            <audio controls>
+            <source src="21084_verse_2_FASST.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <!--<p><strong>45415_verse_FASST:</strong> Vocals separated using the FASST (NMF) algorithm</p>-->
+            <!--<audio controls>-->
+            <!--<source src="source_sep_iKala/45415_verse_FASST.wav" type="audio/wav">-->
+            <!--Your browser does not support the audio element.-->
+            <!--</audio>-->
+            <!--<br>-->
+          <h4>Examples Of Extraction With Real World Song (From MedleyDB)</h4>
+
+          <p><strong>MusicDelta_Reggae:</strong> The original mixture file</p>
+            <audio controls>
+            <source src="MusicDelta_Reggae.wav_mixture.wav" type="audio/wav">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <p><strong>MusicDelta_Reggae:</strong> The original vocals file</p>
+            <audio controls>
+            <source src="MusicDelta_Reggae.wav_ori_vocals.wav" type="audio/wav">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+          <p><strong>MusicDelta_Reggae:</strong> Vocals extracted using sssynth file</p>
+            <audio controls>
+            <source src="MusicDelta_Reggae_synth_ori_f0.wav" type="audio/wav">
+            Your browser does not support the audio element.
+            </audio>
+            <br>
+            <figure>
+         <img src="SDR.png" alt="Small picture of a kitten" />
+         <figcaption>
+          The  SDR  metric  from  the  BSS  Eval  toolkit  for  the three systems to be compared.
+         </figcaption>
+        </figure>
+         <img src="SAR.png" alt="Small picture of a kitten" />
+         <figcaption>
+          The  SAR  metric  from  the  BSS  Eval  toolkit  for  the three systems to be compared.
+         </figcaption>
+        </figure>
+          <!-- <img src= alt="SDR"> -->
+
+          <!-- <img src="SAR.png" alt="SAR"> -->
+
+
+          <p>[1] P. Chandna, M. Miron, J. Janer, and E. Gómez, “Monoaural audio source separation using deep convolutional neural networks” International Conference on Latent Variable Analysis and Signal Separation, 2017.</p>
+          <p>[2] A. Ozerov, E.Vincent, and F. Bim-bot,    “A  general  flexible  framework  for  the  handling of prior information in audio source separation,”IEEETransactions on Audio, Speech, and Language Process-ing, vol. 20, no. 4, pp. 1118–1133, 2012.<p>
+      </div>
+      
+      <div id="blog-bg-footer">
+        <div id="blog-footer">
+          <p>
+            Last updated:&nbsp;
+            <script language="JavaScript">
+            document.write(String(document.lastModified))</script>
+          </p>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
