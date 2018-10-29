@@ -4,7 +4,17 @@
     <head>
         <meta charset="utf-8">
         <title>A Vocoder Based Method For Singing Voice Extraction</title>
-        <link rel="stylesheet" type="text/css" href="../../css/blog-web.css" media="all">
+        <!-- <link rel="stylesheet" type="text/css" href="../../css/blog-web.css" media="all"> -->
+        <!-- <head> -->
+    <style type="text/css">
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    </style>
+    <!-- </head> -->
     </head>
     <body>
     <div id="blog-wrapper">
@@ -73,12 +83,14 @@
             </audio>
             <br>
             <figure>
-         <img src="SDR1.png" alt="SDR" />
+         <div id="container" align="left">
+         <img src="SDR1.png" alt="SDR" style="width: 100%; height: 100%;" /> 
          <figcaption>
           The  SDR  metric  from  the  BSS  Eval  toolkit  for  the three systems to be compared.
          </figcaption>
+          </div>  
         </figure>
-         <img src="SAR1.png" alt="SAR" />
+         <img src="SAR1.png" alt="SAR" style="width: 100%; height: 100%;" /> 
          <figcaption>
           The  SAR  metric  from  the  BSS  Eval  toolkit  for  the three systems to be compared.
          </figcaption>
@@ -89,7 +101,7 @@
 
 
           <p>[1] P. Chandna, M. Miron, J. Janer, and E. Gómez, “Monoaural audio source separation using deep convolutional neural networks” International Conference on Latent Variable Analysis and Signal Separation, 2017.</p>
-          <p>[2] A. Ozerov, E.Vincent, and F. Bim-bot,    “A  general  flexible  framework  for  the  handling of prior information in audio source separation,”IEEETransactions on Audio, Speech, and Language Process-ing, vol. 20, no. 4, pp. 1118–1133, 2012.<p>
+          <p>[2] A. Ozerov, E.Vincent, and F. Bimbot,    “A  general  flexible  framework  for  the  handling of prior information in audio source separation,”IEEETransactions on Audio, Speech, and Language Process-ing, vol. 20, no. 4, pp. 1118–1133, 2012.<p>
       </div>
       
       <div id="blog-bg-footer">
